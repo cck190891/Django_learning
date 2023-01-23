@@ -24,7 +24,7 @@ python manage.py test (app name)
 
 URLs(urlpatterns)  
 ---------------
-**path(route,view,kwargs,name)**   
+**path(route,view,kwargs,name)**  
 + route:URL pattern
 + view:Find a view through patten
 + kwargs:pass arguments 
@@ -42,7 +42,7 @@ DATABASES = {
 &emsp;        'PASSWORD': 'User Password',  
 &emsp;        'HOST': '127.0.0.1',  
 &emsp;        'PORT': '5432',  
-&emsp;    }
+&emsp;    }  
 }
 
 Create Models 
@@ -93,7 +93,7 @@ href="{% static 'polls/style.css'}
 
 Use Customize admin html
 ---------------
-Note:
+Note :  
 Create templates folder in project folder  
 create admin in templates folder and put new admin html in  
 change TEMPLATES in setting,add templates path to DIRS('DIRS': [BASE_DIR / 'templates'])  
